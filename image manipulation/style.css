@@ -1,0 +1,87 @@
+ body{
+    background-color: black;
+ }
+
+ .container{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+ }
+
+ .image-box{
+    width: 100%;
+
+ }
+
+ .image-box input[type="radio"]{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #555;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 00.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+ }
+
+ .image-box input[type="radio"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #000;
+ }
+
+ #img-01{
+    background-image: url(images/anime-3083036_1280.jpg);
+    background-size: cover;
+ }
+ #img-02{
+    background-image: url(images/man-7628305_1280.jpg);
+    background-size: cover;
+ }
+ #img-03{
+    background-image: url(images/ninja-7701126_1280.jpg);
+    background-size: cover;
+ }
+ #img-04{
+    background-image: url(images/sunset-7532726_1280.jpg);
+    background-size: cover;
+ }
+ #img-05{
+    background-image: url(images/sunset-7628294_1280.jpg);
+    background-size: cover;
+ }
+
+ .image-bg{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    border: 1px solid #222;
+    box-shadow: 0 0 5px #000;
+ }
+
+ #img-01:checked ~ .image-bg{
+    background-image: url(images/anime-3083036_1280.jpg) ;
+    background-size: cover;
+ }   
+ #img-02:checked ~ .image-bg{
+    background-image: url(images/man-7628305_1280.jpg) ;
+    background-size: cover;
+ }  
+ #img-03:checked ~ .image-bg{
+    background-image: url(images/ninja-7701126_1280.jpg) ;
+    background-size: cover;
+ }  
+ #img-04:checked ~ .image-bg{
+    background-image: url(images/sunset-7532726_1280.jpg) ;
+    background-size: cover;
+ }  
+ #img-05:checked ~ .image-bg{
+    background-image: url(images/sunset-7628294_1280.jpg) ;
+    background-size: cover;
+ }                           
+
+ 
